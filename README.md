@@ -9,10 +9,10 @@
 This repository contains a project based on the layout provided by [The Odin Project - Foundations Course - Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page).
 
 ## Structures
-1. **`landing-page` Directory:**
+1. **`root` Directory:**
    This folder contains the implementation of the layout as outlined in [The Odin Project - Foundations Course - Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page).
 
-2. **`helloTaiwan` Directory:**
+2. **`helloTaiwan` Subdirectory:**
    This folder contains a new page that introduces the tourist attractions of Taiwan, utilizing the same original layout.
 
 ## Technologies
