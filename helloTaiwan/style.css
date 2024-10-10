@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto';
+}
+
+#section-1 {
+    flex: 1;
+    padding: 8px 48px;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    gap: 12px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-right {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-container {
+    position: relative;
+    width: 400px;
+}
+
+.img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: visible;
+}
+
+.img-description {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.img-container:hover .img {
+    opacity: 0.3;
+}
+
+.img-container:hover .img-description {
+    opacity: 1;
+}
+
+.header-link, .hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+#section-2 {
+    text-align: center;
+    padding: 24px 48px;
+}
+
+#section-2 img {
+    height: 120px;
+    border: #3882F6 solid;
+    border-radius: 12px;
+}
+
+#section-3 {
+    background-color: #E5E7EB;
+    padding: 24px 96px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.content {
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 8px 48px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    padding: 8px 24px;
+    font-weight: bold;
+    border: none;
+}
+
+.blue-block {
+    margin: 36px 48px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 24px 48px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-block button {
+    border: #E5E7EB 2px solid;
+}
+
+.credit {
+    font-size: smaller;
+    color: gray;
+}
+
+.credit a {
+    color: dimgrey;
+}
+
+.author {
+    text-align: right;
+}
